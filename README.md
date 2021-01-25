@@ -37,7 +37,7 @@ Sign in with your Github account and fork this repo.
 * After starting XRDP, copy your project's pulbic IP address and open a remote desktop client.
 * Use the public IP, plus the following credentials to login:
     User: `vcpb`  
-    Passphrase: `music` or the password you set previously
+    Passphrase: `music` or the password you set previously.
 * After logging in, you can ignore some expected error messages.
 * Open Mate terminal, type `~/Telegram/Telegram` to open tdesktop.
 * When tdesktop is opened, login with an alt account of yours.
