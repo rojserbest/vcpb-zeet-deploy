@@ -1,11 +1,11 @@
 #!/bin/bash
 if [ $UID -eq 0 ]; then
-user=$1vcpb #Make change here if you changed username
+user=$1fahsg718u #Make change here if you changed username
 exec su "$user" "$0" -- "$@"
 fi
 echo "This will be run from user $UID"
 cp -f /home/__init__.py /home/vcpb/config/__init__.py
-mv /home/Telegram /home/vcpb/Telegram #Move Telegram to VCPB's Home (make changes according to username)
+mv /home/Telegram /home/fahsg718u/Telegram #Move Telegram to VCPB's Home (make changes according to username)
 pactl load-module module-null-sink sink_name=MySink #loading MySink
 echo "Pulseaudio MySink Loaded"
 pactl set-default-sink MySink #setting Mysink as default Mic
